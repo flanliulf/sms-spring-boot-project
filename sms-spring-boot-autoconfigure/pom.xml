@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.github.jackieonway.sms</groupId>
         <artifactId>sms-spring-boot-parent</artifactId>
-        <version>0.0.1</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>sms-spring-boot-autoconfigure</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.0</version>
     <name>sms-spring-boot-autoconfigure</name>
     <packaging>jar</packaging>
 
@@ -22,6 +22,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
+
         <!-- tencent sms sdk start -->
         <dependency>
             <groupId>com.github.qcloudsms</groupId>
@@ -29,13 +30,15 @@
             <version>1.0.6</version>
         </dependency>
         <!-- tencent sms sdk end -->
+
         <!-- alil sms sdk start -->
         <dependency>
             <groupId>com.aliyun</groupId>
             <artifactId>aliyun-java-sdk-core</artifactId>
-            <version>4.4.1</version>
+            <version>4.5.0</version>
         </dependency>
         <!-- alil sms sdk end -->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
@@ -44,16 +47,19 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.25</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.46</version>
         </dependency>
+
     </dependencies>
 </project>
